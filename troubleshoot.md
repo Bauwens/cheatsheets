@@ -20,7 +20,6 @@ Cheat-sheets Enterprise Linux
 | Remove a port from zone          | `firewall-cmd [--permanent] [--zone=ZONE] --remove-port=80/tcp`  |
 | Turn panic mode on               | `firewall-cmd --panic-on`                                        |
 | Turn panic mode off              | `firewall-cmd --panic-off`                                       |
-|                                  |                                                                  |
 
 
 
