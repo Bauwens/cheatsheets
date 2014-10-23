@@ -19,7 +19,7 @@ Cheat-sheets Enterprise Linux
 | Enable a port in zone            | `firewall-cmd [--permanent] [--zone=ZONE] --add-port=80/tcp`     |
 | Remove a port from zone          | `firewall-cmd [--permanent] [--zone=ZONE] --remove-port=80/tcp`  |
 | Turn panic mode on               | `firewall-cmd --panic-on`                                        |
-| Turn panic mode off              | `firewall-cmd --panic-off`                                       |
+| Turn panic mode off              | `firewall-cmd --panic-off`                                       |  
 
 ## Services
 
