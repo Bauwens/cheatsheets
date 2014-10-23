@@ -32,3 +32,19 @@ Cheat-sheets Enterprise Linux
 | DNS servers                        | `cat /etc/resolv.conf`                        |
 | Set IP address of an interface*    | `ip address add 192.168.56.1/24 dev vboxnet0` |
 | General info                       | `ifconfig`                                    |
+
+
+## Managing services with `systemctl`
+
+| Action                                      | Command                                          |
+| :---                                        | :---                                             |
+| List services                               | `systemctl list-units --type service`            |
+| Query SERVICE status                        | `sudo systemctl status SERVICE.service`          |
+| List failed services on boot                | `sudo systemctl --failed`                        |
+| Start SERVICE                               | `sudo systemctl start SERVICE.service`           |
+| Stop SERVICE                                | `sudo systemctl stop SERVICE.service`            |
+| Restart SERVICE                             | `sudo systemctl restart SERVICE.service`         |
+| *Kill* SERVICE (all processes) with SIGTERM | `sudo systemctl kill SERVICE.service`            |
+| *Kill* SERVICE (all processes) with SIGKILL | `sudo systemctl kill -s SIGKILL SERVICE.service` |
+| Start SERVICE on boot                       | `sudo systemctl enable SERVICE.service`          |
+| Don't start SERVICE on boot                 | `sudo systemctl disable SERVICE.service`         |
