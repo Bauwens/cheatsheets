@@ -5,7 +5,7 @@ Cheat-sheets Enterprise Linux
 
 ## Firewall
 
- Action                            | Command                                                          |
+| Action                           | Command                                                          |
 | :---                             | :---                                                             |
 | Firewall state                   | `firewall-cmd --state`                                           |
 | Reload permanent rules           | `firewall-cmd --reload`                                          |
