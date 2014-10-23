@@ -34,7 +34,7 @@ Cheat-sheets Enterprise Linux
 | General info                       | `ifconfig`                                    |
 
 
-## Managing services with `systemctl`
+## Services`
 
 | Action                                      | Command                                          |
 | :---                                        | :---                                             |
