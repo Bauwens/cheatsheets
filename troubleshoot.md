@@ -21,26 +21,6 @@ Cheat-sheets Enterprise Linux
 | Turn panic mode on               | `firewall-cmd --panic-on`                                        |
 | Turn panic mode off              | `firewall-cmd --panic-off`                                       |
 
-
-
-
-
-
-
-
-## Network config commands
-
-| Action                             | Command                                       |
-| :---                               | :---                                          |
-| List interfaces (and IP addresses) | `ip address`, `ip a`                          |
-| Route table                        | `ip route`, `ip r`                            |
-| DNS servers                        | `cat /etc/resolv.conf`                        |
-| Set IP address of an interface*    | `ip address add 192.168.56.1/24 dev vboxnet0` |
-| General info                       | `ifconfig`                                    |
-
-
-
-
 ## Services
 
 | Action                                      | Command                                          |
@@ -56,10 +36,6 @@ Cheat-sheets Enterprise Linux
 | Start SERVICE on boot                       | `sudo systemctl enable SERVICE.service`          |
 | Don't start SERVICE on boot                 | `sudo systemctl disable SERVICE.service`         |
 
-
-
-
-
 ## Red hat network config files
 
 | Action                                      | Command                                          |
@@ -68,3 +44,14 @@ Cheat-sheets Enterprise Linux
 | gateway / hostname                          | `/etc/sysconfig/network`                         |
 | DNS                                         | `/etc/resolv.conf       `                        |
 | restart services                            | `/etc/init.d/network restart`                    |
+
+## Network config commands
+
+| Action                             | Command                                       |
+| :---                               | :---                                          |
+| List interfaces (and IP addresses) | `ip address`, `ip a`                          |
+| Route table                        | `ip route`, `ip r`                            |
+| DNS servers                        | `cat /etc/resolv.conf`                        |
+| Set IP address of an interface*    | `ip address add 192.168.56.1/24 dev vboxnet0` |
+| General info                       | `ifconfig`                                    |
+
