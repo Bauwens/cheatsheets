@@ -48,3 +48,11 @@ Cheat-sheets Enterprise Linux
 | *Kill* SERVICE (all processes) with SIGKILL | `sudo systemctl kill -s SIGKILL SERVICE.service` |
 | Start SERVICE on boot                       | `sudo systemctl enable SERVICE.service`          |
 | Don't start SERVICE on boot                 | `sudo systemctl disable SERVICE.service`         |
+
+
+## Red hat network config files
+
+| network scripts                             | `/etc/sysconfig/network-scripts/ifcfg-eth0`      |
+| gateway / hostname                          | `/etc/sysconfig/network`                         |
+| DNS                                         | `/etc/resolv.conf       `                        |
+| restart services                            | `/etc/init.d/network restart`                    |
