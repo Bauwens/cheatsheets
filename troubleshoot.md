@@ -27,7 +27,7 @@ Cheat-sheets Enterprise Linux
 
 ## Network config commands
 
-| Action                             | Command                                       |
+
 | :---                               | :---                                          |
 | List interfaces (and IP addresses) | `ip address`, `ip a`                          |
 | Route table                        | `ip route`, `ip r`                            |
