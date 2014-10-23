@@ -34,7 +34,7 @@ Cheat-sheets Enterprise Linux
 | General info                       | `ifconfig`                                    |
 
 
-## Services`
+## Services
 
 | Action                                      | Command                                          |
 | :---                                        | :---                                             |
