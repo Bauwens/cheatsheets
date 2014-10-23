@@ -23,6 +23,8 @@ Cheat-sheets Enterprise Linux
 |                                  |                                                                  |
 
 
+
+
 ## Network config commands
 
 | Action                             | Command                                       |
@@ -32,6 +34,8 @@ Cheat-sheets Enterprise Linux
 | DNS servers                        | `cat /etc/resolv.conf`                        |
 | Set IP address of an interface*    | `ip address add 192.168.56.1/24 dev vboxnet0` |
 | General info                       | `ifconfig`                                    |
+
+
 
 
 ## Services
@@ -48,6 +52,9 @@ Cheat-sheets Enterprise Linux
 | *Kill* SERVICE (all processes) with SIGKILL | `sudo systemctl kill -s SIGKILL SERVICE.service` |
 | Start SERVICE on boot                       | `sudo systemctl enable SERVICE.service`          |
 | Don't start SERVICE on boot                 | `sudo systemctl disable SERVICE.service`         |
+
+
+
 
 
 ## Red hat network config files
