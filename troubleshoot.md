@@ -1,8 +1,6 @@
 cheatsheets
 ===========
 
-Cheat-sheets Enterprise Linux
-
 ## Firewall
 
 | Action                           | Command                                                          |
@@ -23,7 +21,7 @@ Cheat-sheets Enterprise Linux
 
 ## Services
 
-|                                       |                                          |
+| Action                                      |  Command                                         |
 | :---                                        | :---                                             |
 | List services                               | `systemctl list-units --type service`            |
 | Query SERVICE status                        | `sudo systemctl status SERVICE.service`          |
